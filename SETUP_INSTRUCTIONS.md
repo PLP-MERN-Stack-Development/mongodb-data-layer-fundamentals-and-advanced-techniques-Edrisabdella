@@ -4,6 +4,12 @@
 
 If you encounter this error when running your JavaScript files:
 
+Error: Cannot find module 'mongodb'
+
+Error: Cannot find module 'mongodb'
+
+Error: Cannot find module 'mongodb'
+
 ```
 Error: Cannot find module 'mongodb'
 ```
@@ -52,6 +58,7 @@ If you prefer not to use Node.js for this assignment, you can use the MongoDB Sh
 
 1. Start your MongoDB server
 2. Run your script with MongoDB Shell:
+
    ```bash
    mongosh --file your_script.js
    ```
@@ -66,4 +73,4 @@ If you continue to experience issues, please:
 2. Check that you're in the correct directory when installing packages
 3. Verify your MongoDB connection string in your code
 
-For more information, refer to the [MongoDB Node.js Driver documentation](https://www.mongodb.com/docs/drivers/node/current/). 
+For more information, refer to the [MongoDB Node.js Driver documentation](https://www.mongodb.com/docs/drivers/node/current/).

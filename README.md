@@ -6,6 +6,7 @@ It is part of the PLP Academy assignment on **Data Layer Fundamentals and Advanc
 ---
 
 ## 🚀 Features
+
 - Database setup and population with sample book data  
 - Basic CRUD operations (Create, Read, Update, Delete)  
 - Advanced queries (filtering, projection, sorting, pagination)  
@@ -15,6 +16,7 @@ It is part of the PLP Academy assignment on **Data Layer Fundamentals and Advanc
 ---
 
 ## 🛠️ Technologies Used
+
 - **Node.js** (JavaScript runtime)  
 - **MongoDB** (NoSQL database)  
 - **MongoDB Node.js Driver**  
@@ -22,6 +24,7 @@ It is part of the PLP Academy assignment on **Data Layer Fundamentals and Advanc
 ---
 
 ## 📂 Project Files
+
 - **insert_books.js** → Script to create the database and populate it with sample book data  
 - **queries.js** → Contains all MongoDB queries for the assignment tasks  
 - **README.md** → Documentation and setup guide  
@@ -31,11 +34,14 @@ It is part of the PLP Academy assignment on **Data Layer Fundamentals and Advanc
 ## ⚙️ Setup Instructions
 
 ### 1. Prerequisites
+
 - Install [Node.js](https://nodejs.org/)  
 - Install [MongoDB](https://www.mongodb.com/try/download/community) locally OR create a free [MongoDB Atlas](https://www.mongodb.com/atlas) cluster  
 
 ### 2. Installation
+
 Clone this repository and install dependencies:
+
 ```bash
 git clone <your-repository-url>
 cd plp-bookstore-mongodb
