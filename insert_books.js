@@ -131,6 +131,36 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
+  },
+  {
+    title: 'Harry Potter and the Philosopher\'s Stone',
+    author: 'J.K. Rowling',
+    genre: 'Fantasy',
+    published_year: 1997,
+    price: 15.99,
+    in_stock: true,
+    pages: 320,
+    publisher: 'Bloomsbury'
+  },
+  {
+    title: 'The Da Vinci Code',
+    author: 'Dan Brown',
+    genre: 'Mystery',
+    published_year: 2003,
+    price: 13.99,
+    in_stock: true,
+    pages: 454,
+    publisher: 'Doubleday'
+  },
+  {
+    title: 'The Hunger Games',
+    author: 'Suzanne Collins',
+    genre: 'Dystopian',
+    published_year: 2008,
+    price: 11.99,
+    in_stock: true,
+    pages: 374,
+    publisher: 'Scholastic'
   }
 ];
 
@@ -177,22 +207,3 @@ async function insertBooks() {
 
 // Run the function
 insertBooks().catch(console.error);
-
-/*
- * Example MongoDB queries you can try after running this script:
- *
- * 1. Find all books:
- *    db.books.find()
- *
- * 2. Find books by a specific author:
- *    db.books.find({ author: "George Orwell" })
- *
- * 3. Find books published after 1950:
- *    db.books.find({ published_year: { $gt: 1950 } })
- *
- * 4. Find books in a specific genre:
- *    db.books.find({ genre: "Fiction" })
- *
- * 5. Find in-stock books:
- *    db.books.find({ in_stock: true })
- */ 
